@@ -8,11 +8,16 @@
 #ifndef UART_H_
 #define UART_H_
 
-//uint16_t * sending;
-
 void config_UART(void);
 
 void send(uint8_t go);
 
+void rightturn();
+
+void leftturn();
+
+void straight();
+
+void stop();
 
 #endif /* UART_H_ */
